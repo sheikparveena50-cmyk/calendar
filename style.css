@@ -40,3 +40,13 @@ body {
   color: white;
   border-radius: 6px;
 }
+.festival {
+  font-size: 10px;
+  margin-top: 4px;
+  color: #d63384;
+}
+
+.festival-day {
+  background: #fff3cd;
+  border-radius: 6px;
+}
