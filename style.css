@@ -1,0 +1,42 @@
+body {
+  background: #f4f6f8;
+  font-family: Arial;
+}
+
+.calendar {
+  width: 380px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0b5ed7;
+  color: white;
+}
+
+.weekdays, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekdays div {
+  padding: 10px;
+  background: #eee;
+  text-align: center;
+}
+
+.days div {
+  padding: 12px;
+  text-align: center;
+}
+
+.today {
+  background: #0b5ed7;
+  color: white;
+  border-radius: 6px;
+}
